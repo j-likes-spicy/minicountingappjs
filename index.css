@@ -1,0 +1,37 @@
+::root {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 22%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  border-radius: 0.75rem;
+  width: 50vw;
+  margin: 6rem auto;
+  text-align: center;
+  padding: 2rem;
+  background-color: aqua;
+}
+
+h1 {
+  margin: 2rem;
+}
+
+h2 {
+  margin: 1rem;
+}
